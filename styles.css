@@ -1,0 +1,66 @@
+.index {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:black;
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.about {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:black;
+    color:beige;
+}
+
+.account {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:black;
+    color:beige;
+}
+
+.form {
+    background-color: black;
+    border: 2px solid beige;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.form h1 {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-color: black;
+    color: beige;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid beige;
+    border-radius: 5px;
+    padding: 10px 137px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color:rgb(217, 103, 210);
+    font-weight:bolder;
+}
